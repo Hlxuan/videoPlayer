@@ -16,7 +16,11 @@ stop.addEventListener("click", stopVideo)
 progress.addEventListener("change", setVideoProgress)
 
 function toggleVideoStatus() {
-  return true
+  if (video.paused) {
+    video.play()
+  } else {
+    video.pause()
+  }
 }
 
 function updatePlayIcon() {
