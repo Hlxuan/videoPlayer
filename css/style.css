@@ -12,3 +12,13 @@ body {
   height: 100vh;
   margin: 0;
 }
+
+h1 {
+  color: #fff;
+}
+
+.screen {
+  cursor: pointer;
+  width: 50%;
+  background-color: #000 !important;
+}
