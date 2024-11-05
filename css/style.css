@@ -36,6 +36,12 @@ h1 {
   padding: 10px;
 }
 
+.controls .btn {
+  border: 0;
+  background: transparent;
+  cursor: pointer;
+}
+
 @media (max-width: 800px) {
   .screen,
   .controls {
